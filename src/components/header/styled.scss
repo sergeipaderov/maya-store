@@ -22,5 +22,11 @@
   .option {
     padding: 10px 15px;
     font-size: 20px;
+    transition: 0.3s;
+    transition: .1s ease-in-out;
+
+    &:hover {
+      font-weight: 600;
+    }
   }
 }
